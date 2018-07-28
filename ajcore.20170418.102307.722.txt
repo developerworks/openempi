@@ -1,0 +1,403 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.6.0 built on Wednesday Apr 23, 2008 at 20:27:36 GMT
+---- Dump Properties ---
+Dump file: ajcore.20170418.102307.722.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=C:\Program Files (x86)\Java\jdk1.7.0_01\jre\bin
+java.vm.version=21.1-b02
+maven.multiModuleProjectDirectory=$M2_HOME
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+guice.disable.misplaced.annotation.check=true
+path.separator=;
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.country=CN
+user.script=
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\lennon\Workspaces\MyEclipse 10\openempi
+java.runtime.version=1.7.0_01-b08
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\endorsed
+os.arch=x86
+java.io.tmpdir=C:\Users\lennon\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+os.name=Windows NT (unknown)
+classworlds.conf=C:\Users\lennon\Workspaces\MyEclipse 10\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf6858946336001671183.tmp
+sun.jnu.encoding=GBK
+java.library.path=C:\Program Files (x86)\Java\jdk1.7.0_01\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\DVTk\DVT\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\whzxyy\WanLiYunDiagonse\Bin;C:\Program Files\synedra\ViewPersonal;C:\Program Files\TortoiseGit\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\WanLiYunPacs\Bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\VisualSVN Server\bin;D:\TortoiseSVN\bin;C:\Windows\System32;C:\Program Files\jdk1.8.0_121\bin;C:\Program Files\jdk1.8.0_121\jre\bin;D:\WanLiYunPacs\Bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9;\bin;D:\nexus-3.0.2-02;\bin;;.
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot Client Compiler
+os.version=6.2
+user.home=C:\Users\lennon
+user.timezone=Asia/Singapore
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+file.encoding=UTF-8
+java.specification.version=1.7
+java.class.path=D:\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar
+user.name=lennon
+java.vm.specification.version=1.7
+sun.java.command=org.codehaus.classworlds.Launcher -B -s D:\apache-maven-3.2.5\conf\settings.xml install
+java.home=C:\Program Files (x86)\Java\jdk1.7.0_01\jre
+sun.arch.data.model=32
+user.language=zh
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+java.version=1.7.0_01
+java.ext.dirs=C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+sun.boot.class.path=C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\endorsed\geronimo-jaxws_2.2_spec-1.1.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\endorsed\jaxb-api-2.2.6.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\endorsed\jaxws-api.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\classes
+java.vendor=Oracle Corporation
+maven.home=D:\apache-maven-3.2.5
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+---- Command Line ---
+-1.5
+-showWeaveInfo
+-source
+1.5
+-verbose
+-classpath
+D:\maven\antlr\antlr\2.7.6\antlr-2.7.6.jar;D:\maven\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;D:\maven\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;D:\maven\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;D:\maven\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;D:\maven\com\eaio\uuid\uuid\3.1\uuid-3.1.jar;D:\maven\com\ibm\icu\icu4j\4.0.1\icu4j-4.0.1.jar;D:\maven\com\lowagie\itext\2.1.7\itext-2.1.7.jar;D:\maven\com\sun\jdmk\jmxtools\1.2.1\jmxtools-1.2.1.jar;D:\maven\com\sun\jmx\jmxri\1.2.1\jmxri-1.2.1.jar;D:\maven\com\sun\org\apache\xml\internal\resolver\20050927\resolver-20050927.jar;D:\maven\com\sun\xml\bind\jaxb-impl\2.2.5-b10\jaxb-impl-2.2.5-b10.jar;D:\maven\com\sun\xml\bind\jaxb-xjc\2.2.5-b10\jaxb-xjc-2.2.5-b10.jar;D:\maven\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;D:\maven\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\maven\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;D:\maven\commons-digester\commons-digester\1.7\commons-digester-1.7.jar;D:\maven\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;D:\maven\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\maven\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;D:\maven\commons-net\commons-net\2.0\commons-net-2.0.jar;D:\maven\commons-pool\commons-pool\1.4\commons-pool-1.4.jar;D:\maven\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\javax\activation\activation\1.1\activation-1.1.jar;D:\maven\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;D:\maven\javax\jms\jms\1.1\jms-1.1.jar;D:\maven\javax\mail\mail\1.4\mail-1.4.jar;D:\maven\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;D:\maven\javax\transaction\jta\1.0.1B\jta-1.0.1B.jar;D:\maven\jdom\jdom\1.1.3\jdom-1.1.3.jar;D:\maven\jfree\jcommon\1.0.15\jcommon-1.0.15.jar;D:\maven\jfree\jfreechart\1.0.12\jfreechart-1.0.12.jar;D:\maven\junit\junit\4.8\junit-4.8.jar;D:\maven\junit\junit-dep\4.4\junit-dep-4.4.jar;D:\maven\log4j\log4j\1.2.15\log4j-1.2.15.jar;D:\maven\net\sf\ehcache\ehcache-core\2.6.2\ehcache-core-2.6.2.jar;D:\maven\net\sf\jasperreports\jasperreports\4.5.0\jasperreports-4.5.0.jar;D:\maven\net\sf\opencsv\opencsv\2.1\opencsv-2.1.jar;D:\maven\org\apache\activemq\activeio-core\3.1.2\activeio-core-3.1.2.jar;D:\maven\org\apache\activemq\activemq-core\5.4.2\activemq-core-5.4.2.jar;D:\maven\org\apache\activemq\activemq-pool\5.4.2\activemq-pool-5.4.2.jar;D:\maven\org\apache\activemq\kahadb\5.4.2\kahadb-5.4.2.jar;D:\maven\org\apache\activemq\protobuf\activemq-protobuf\1.1\activemq-protobuf-1.1.jar;D:\maven\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;D:\maven\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;D:\maven\org\apache\geronimo\specs\geronimo-jta_1.0.1B_spec\1.0.1\geronimo-jta_1.0.1B_spec-1.0.1.jar;D:\maven\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;D:\maven\org\apache\maven\maven-artifact\2.0.6\maven-artifact-2.0.6.jar;D:\maven\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.jar;D:\maven\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.jar;D:\maven\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar;D:\maven\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.jar;D:\maven\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.jar;D:\maven\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.jar;D:\maven\org\apache\maven\maven-repository-metadata\2.0.6\maven-repository-metadata-2.0.6.jar;D:\maven\org\apache\maven\maven-settings\2.0.6\maven-settings-2.0.6.jar;D:\maven\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar;D:\maven\org\apache\poi\poi\3.7\poi-3.7.jar;D:\maven\org\apache\poi\poi-ooxml\3.7\poi-ooxml-3.7.jar;D:\maven\org\apache\poi\poi-ooxml-schemas\3.7\poi-ooxml-schemas-3.7.jar;D:\maven\org\apache\tomcat\dbcp\6.0.33\dbcp-6.0.33.jar;D:\maven\org\apache\tomcat\tomcat-jdbc\7.0.35\tomcat-jdbc-7.0.35.jar;D:\maven\org\apache\tomcat\tomcat-juli\7.0.35\tomcat-juli-7.0.35.jar;D:\maven\org\apache\xbean\xbean-spring\3.7\xbean-spring-3.7.jar;D:\maven\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;D:\maven\org\aspectj\aspectjrt\1.6.0\aspectjrt-1.6.0.jar;D:\maven\org\aspectj\aspectjweaver\1.6.0\aspectjweaver-1.6.0.jar;D:\maven\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;D:\maven\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;D:\maven\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;D:\maven\org\codehaus\castor\castor\1.2\castor-1.2.jar;D:\maven\org\codehaus\groovy\groovy-all\1.7.5\groovy-all-1.7.5.jar;D:\maven\org\codehaus\jackson\jackson-core-lgpl\1.7.4\jackson-core-lgpl-1.7.4.jar;D:\maven\org\codehaus\jackson\jackson-mapper-lgpl\1.7.4\jackson-mapper-lgpl-1.7.4.jar;D:\maven\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;D:\maven\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;D:\maven\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\maven\org\hamcrest\hamcrest-library\1.1\hamcrest-library-1.1.jar;D:\maven\org\hibernate\hibernate\3.2.6.ga\hibernate-3.2.6.ga.jar;D:\maven\org\hibernate\hibernate-annotations\3.3.0.ga\hibernate-annotations-3.3.0.ga.jar;D:\maven\org\hibernate\hibernate-commons-annotations\3.3.0.ga\hibernate-commons-annotations-3.3.0.ga.jar;D:\maven\org\hibernate\hibernate-validator\3.0.0.ga\hibernate-validator-3.0.0.ga.jar;D:\maven\org\jasypt\jasypt\1.6\jasypt-1.6.jar;D:\maven\org\jfrog\maven\annomojo\maven-plugin-anno\1.3.1\maven-plugin-anno-1.3.1.jar;D:\maven\org\jmock\jmock\2.4.0\jmock-2.4.0.jar;D:\maven\org\jmock\jmock-junit4\2.4.0\jmock-junit4-2.4.0.jar;D:\maven\org\jvnet\jaxb2\maven2\maven-jaxb2-plugin\0.8.1\maven-jaxb2-plugin-0.8.1.jar;D:\maven\org\jvnet\jaxb2\maven2\maven-jaxb2-plugin-core\0.8.1\maven-jaxb2-plugin-core-0.8.1.jar;D:\maven\org\jvnet\jaxb2\maven2\maven-jaxb22-plugin\0.8.1\maven-jaxb22-plugin-0.8.1.jar;C:\Users\lennon\Workspaces\MyEclipse 10\openempi\configuration\target\openempi-configuration-2.3.0.jar;D:\maven\org\osgi\org.osgi.core\4.1.0\org.osgi.core-4.1.0.jar;D:\maven\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\maven\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\maven\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;D:\maven\org\springframework\spring-aop\3.1.1.RELEASE\spring-aop-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-asm\3.1.1.RELEASE\spring-asm-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-aspects\3.1.1.RELEASE\spring-aspects-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-beans\3.1.1.RELEASE\spring-beans-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-context\3.1.1.RELEASE\spring-context-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-context-support\3.1.1.RELEASE\spring-context-support-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-core\3.1.1.RELEASE\spring-core-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-expression\3.1.1.RELEASE\spring-expression-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-jdbc\3.1.1.RELEASE\spring-jdbc-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-jms\3.1.1.RELEASE\spring-jms-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-orm\3.1.1.RELEASE\spring-orm-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-test\3.1.1.RELEASE\spring-test-3.1.1.RELEASE.jar;D:\maven\org\springframework\spring-tx\3.1.1.RELEASE\spring-tx-3.1.1.RELEASE.jar;D:\maven\org\springframework\security\spring-security-core\2.0.1\spring-security-core-2.0.1.jar;D:\maven\org\springframework\security\spring-security-core-tiger\2.0.1\spring-security-core-tiger-2.0.1.jar;D:\maven\org\subethamail\subethasmtp-wiser\1.2\subethasmtp-wiser-1.2.jar;D:\maven\postgresql\postgresql\8.1-407.jdbc3\postgresql-8.1-407.jdbc3.jar;D:\maven\simmetrics\simmetrics\1.6.2\simmetrics-1.6.2.jar;D:\maven\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\maven\velocity\velocity\1.4\velocity-1.4.jar;D:\maven\xml-apis\xml-apis\1.3.02\xml-apis-1.3.02.jar;C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\target\classes
+-aspectpath
+D:\maven\org\springframework\spring-aspects\3.1.1.RELEASE\spring-aspects-3.1.1.RELEASE.jar
+-d
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\target\classes
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\AuditEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\MessageLogEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\BlockingLifecycleObserver.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportParameter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\DeleteNotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\AddNotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\CustomField.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ConfigurationEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\impl\ReportServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\impl\TransformationServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoaderFactory.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\PropertiesUtils.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\LoggingPropertyPlaceholderConfigurer.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\MatchingTasksJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\ReportDownloadService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\GotohDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\PhoneType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\QGramsDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\PersonQueryServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\UniversalManagerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\MessageLogDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\DataProfiler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\DateUtil.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\RefinedSoundexFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\AuditEventDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\RoleManagerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\TimestampConverter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\JobParameterConstants.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\PersonManagerService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\LoaderDataField.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\impl\ReportDownloadServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\IdentifierUpdateEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\JobQueueServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\ImportNotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Role.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\context\UserContext.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\RepositoryRecordDataSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\ApplicationException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\UserSession.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\JobEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoaderManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\impl\NotificationServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\UniversalDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\DiceSimilarityMetricStringVersion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\ValidationService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Nationality.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Language.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\LevenshteinDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\LoaderSubField.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\RecordTypeDef.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\LinkSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\TestConversions.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\SubstringFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\OverlapCoefficientMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Race.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\GenericDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\MessageHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\UniversalDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ConfigurationLoaderException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\MergeNotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\LookupDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\BaseSpringApp.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\JaroWinklerDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\StringComparisonService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\BaseServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\TrainingDataExtractor.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\SmithWatermanDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\PersonLoaderManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\UserSessionDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\MongeElkanDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\RecordPair.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\Core.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\IdentifierDomainAttribute.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\PersonIdentifier.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\LookupManagerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\AbstractTransformationFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\BlockingService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\ReportDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ParameterType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\UserExistsException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\GotohWindowedAffineDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\LoaderFieldComposition.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\UserSessionDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Criterion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\JaroDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Operation.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\DateTransformationFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\SoundexUtils.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\RoleDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Report.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\UpdateNotificationRegistrationEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\UpdateNotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\FileImportJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\PersonDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\AbstractRecordDataSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\GlobalIdGenerationJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\BlockingInitializationJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\UserDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\LoaderConfig.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\UserManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Address.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\ReportGenerator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\AuditEventService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\Constants.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\NysiisFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\UserFile.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\TransformationFunctionType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\NameType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\impl\StringComparisonServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\Component.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\AbstractFileLoader.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ExtendedCriterion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\naive\NaiveBlockingRecordPairSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\ReportDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\VectorConfiguration.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\impl\AbstractReportGenerator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\JobEntryFactory.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\Nysiis.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\JobTypeEnum.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\CosineSimilarityMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\SessionGenerator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoaderParameters.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportRequestEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\DataProfileServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\BaseManagerTestCase.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\PersonLinkDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\PersonQueryService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\TransformationService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\IdentifierTransformationFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\Parameterizable.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\singlebestrecord\SingleBestRecordService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\MessageLogDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ConfigurationRegistry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoader.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\GenericManagerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\DoubleMetaphoneFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\SoundexFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\JaccardSimilarityMetricStringVersion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\FormEntryDisplayType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\impl\JdbcReportGenerator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\JobType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\EventType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\DistanceMetricType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\AddressType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\DataProfilingJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Version.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\BlockingMetricCalculator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\RecordPairIterator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\IdentifierDomain.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\TransformationFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\GenericDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\LabelValue.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\PersonCommonServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\ConvertUtil.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\spring\HibernateExtensionPostProcessor.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\naive\NaiveBlockingRecordPairIterator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\CurrencyConverter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\JaroWinklerAliasiDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\ValidationException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\JobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\RecordDataSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\AuditEventType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\ExactMatchDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\NameValuePair.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Religion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportRequest.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\RecordPairSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\DistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\GlobalIdentifier.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\UserDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\context\Context.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\DataProfileAttributeValue.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\OrderCriterion.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportQueryParameter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportRequestParameter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ScheduledTaskEntry.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\JobQueueProcessor.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\PersonDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\PersonLink.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\MailEngine.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\NotificationService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\report\ReportService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\LookupManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\PersonManagerServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\UpdateEventNotificationGenerator.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\ValidationServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\JobStatus.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\UpdateEventNotificationCleanupTask.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\dao\hibernate\JobEntryDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReportQuery.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\BaseManagerMockTestCase.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Criteria.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\LoggedLink.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Gender.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\dao\JobEntryDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\NotificationEventFactory.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\MatchingCoefficientMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\JobQueueService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\AbstractDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\ProcessFileDataset.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\Configuration.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\EuclideanDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ComparisonVector.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\matching\MatchingService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\ObservationEventType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoaderResults.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\NotificationEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Permission.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ComparatorFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\IdentifierUpdateEvent.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\AuthenticationException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\naive\NaiveBlockingServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\JobEntryEventLog.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\UserSecurityAdvice.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\ReviewRecordPair.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\BaseDaoTestCase.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\InvalidSessionException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\ConfigurationLoader.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\DataProfileAttribute.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\AttributeMetadata.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\MatchField.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\impl\MessageListenerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\SpringPersonLoaderManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\loader\FileLoaderConfigurationService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Person.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\PersonLinkDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\UserManagerImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\UserSessionRemover.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\EthnicGroup.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\MessageType.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\JaroWinklerSimmetricsDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\DataProfilerLoader.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\AbstractJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\UserService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\AuditEventDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\matching\AbstractMatchingLifecycleObserver.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\transformation\function\MetaphoneFunction.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\BlockingRound.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\BaseObject.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\LookupDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\NeedlemanWunschDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\hibernate\DataProfileAttributeDaoHibernate.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\FileRecordDataSource.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\RoleManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\BaseField.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\matching\MatchingLifecycleObserver.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\DataProfileAttributeDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\MessageListener.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\UniversalManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\dao\RoleDao.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\profiling\DataProfileService.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\jobqueue\impl\CustomFieldGenerationJobTypeHandler.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\impl\AuditEventServiceImpl.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\configuration\AdminConfiguration.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\ConvertingWrapDynaBean.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\BlockDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\InitializationException.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\service\GenericManager.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\User.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\stringcomparison\metrics\SoundexDistanceMetric.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\util\DateConverter.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\notification\EventObservable.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\model\Record.java
+C:\Users\lennon\Workspaces\MyEclipse 10\openempi\core\src\main\java\org\openhie\openempi\blocking\AbstractBlockingLifecycleObserver.java
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+info directory classpath entry does not exist: C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\sunrsasign.jar
+info zipfile classpath entry does not exist: C:\Program Files (x86)\Java\jdk1.7.0_01\jre\classes
+abort ABORT -- (BCException) Unable to continue, this version of AspectJ supports classes built with weaver version 5.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 6.0
+when batch building BuildConfig[null] #Files=264
+
+Unable to continue, this version of AspectJ supports classes built with weaver version 5.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 6.0
+when batch building BuildConfig[null] #Files=264
+
+org.aspectj.weaver.BCException: Unable to continue, this version of AspectJ supports classes built with weaver version 5.0 but the class org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect is version 6.0
+when batch building BuildConfig[null] #Files=264
+
+	at org.aspectj.weaver.bcel.BcelAttributes.readAjAttributes(BcelAttributes.java:53)
+	at org.aspectj.weaver.bcel.BcelObjectType.ensureAspectJAttributesUnpacked(BcelObjectType.java:313)
+	at org.aspectj.weaver.bcel.BcelObjectType.<init>(BcelObjectType.java:143)
+	at org.aspectj.weaver.bcel.BcelWorld.buildBcelDelegate(BcelWorld.java:360)
+	at org.aspectj.weaver.bcel.BcelWorld.addSourceObjectType(BcelWorld.java:422)
+	at org.aspectj.weaver.bcel.BcelWeaver.addAspectsFromJarFile(BcelWeaver.java:258)
+	at org.aspectj.weaver.bcel.BcelWeaver.addLibraryJarFile(BcelWeaver.java:233)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.initBcelWorld(AjBuildManager.java:803)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild(AjBuildManager.java:243)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:180)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:378)
+	at org.aspectj.tools.ajc.Main.runMain(Main.java:253)
+	at org.codehaus.mojo.aspectj.AbstractAjcCompiler.execute(AbstractAjcCompiler.java:378)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+
+---- org.aspectj.weaver.bcel.BcelWorld@cd6695 ----
+Shadow mungers:
+Empty
+Type mungers:
+Empty
+Late Type mungers:
+Empty

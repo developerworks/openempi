@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.6 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2017.04.18 时间 10:19:46 AM SGT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://configuration.openempi.openhie.org/fileloadermap">
+    <schemaBindings map="false">
+      <package name="org.openhie.openempi.configuration.xml.model"/>
+    </schemaBindings>
+    <bindings scd="tns:file-loader-map">
+      <class ref="org.openhie.openempi.configuration.xml.model.FileLoaderMap"/>
+    </bindings>
+    <bindings scd="~tns:FieldsType">
+      <class ref="org.openhie.openempi.configuration.xml.model.FieldsType"/>
+    </bindings>
+    <bindings scd="~tns:SubFieldsType">
+      <class ref="org.openhie.openempi.configuration.xml.model.SubFieldsType"/>
+    </bindings>
+    <bindings scd="~tns:FieldType">
+      <class ref="org.openhie.openempi.configuration.xml.model.FieldType"/>
+    </bindings>
+    <bindings scd="~tns:datatype">
+      <typesafeEnumClass ref="org.openhie.openempi.configuration.xml.model.Datatype"/>
+    </bindings>
+  </bindings>
+</bindings>
+
